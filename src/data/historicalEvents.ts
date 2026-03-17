@@ -166,6 +166,49 @@ const historicalEvents: HistoricalEvent[] = [
     phase: "sovereignty",
     description: "Nơi diễn ra nhiều cuộc đấu tranh kiên cường của các chiến sĩ cách mạng bị giam cầm trong các nhà tù thực dân.",
     imageUrl: "https://rootytrip.com/wp-content/uploads/2024/07/phu-quoc-1024x576.jpg"
+  },
+   {
+    id: 16,
+    title: "Hội nghị thành lập Đảng",
+    location: "Hương Cảng, Trung Quốc",
+    coordinates: [22.3193, 114.1694],
+    date: "03/02/1930",
+    phase: "struggle-1930-1945",
+    description: "Hợp nhất các tổ chức cộng sản thành Đảng Cộng sản Việt Nam dưới sự chủ trì của Nguyễn Ái Quốc.",
+    imageUrl: "https://imgnvsk.vnanet.vn/MediaUpload/Medium/2023/07/10/cau-3-hoi-nghi-thanh-lap-dang-10-16-20-13510-8-54-22.jpg"
+  },
+  {
+    id: 17,
+    title: "Thành lập Đội Việt Nam Tuyên truyền Giải phóng quân",
+    location: "Cao Bằng",
+    coordinates: [22.666, 106.263],
+    date: "22/12/1944",
+    phase: "struggle-1930-1945",
+    description: "Tiền thân của Quân đội nhân dân Việt Nam, ra đời tại khu rừng Trần Hưng Đạo.",
+        imageUrl: "https://special.nhandan.vn/tuyen-truyen-VN-giai-phong-quan/assets/DrDIvNnCS8/unnamed-1-512x288.jpg"
+
+  },
+  {
+    id: 18,
+    title: "Ký kết Hiệp định Sơ bộ",
+    location: "Hà Nội",
+    coordinates: [21.0285, 105.8542],
+    date: "06/03/1946",
+    phase: "resistance-1945-1954",
+    description: "Việt Nam ký với Pháp nhằm tạo thời gian hòa hoãn để chuẩn bị cho kháng chiến lâu dài.",
+        imageUrl: "https://file3.qdnd.vn/data/images/0/2022/03/03/thutrang_la/bachovatongthongindonexia%205.jpg?dpi=150&quality=100&w=870"
+
+  },
+  {
+    id: 19,
+    title: "Hiệp nghị Giơ-ne-vơ",
+    location: "Thụy Sỹ",
+    coordinates: [46.2044, 6.1432],
+    date: "21/07/1954",
+    phase: "resistance-1945-1954",
+    description: "Kết thúc thắng lợi cuộc kháng chiến chống Pháp, giải phóng hoàn toàn miền Bắc.",
+        imageUrl: "https://bcp.cdnchinhphu.vn/334894974524682240/2024/4/25/1gionevoa-17140129931551422933117.jpg"
+
   }
 ];
 
