@@ -209,6 +209,76 @@ const historicalEvents: HistoricalEvent[] = [
     description: "Kết thúc thắng lợi cuộc kháng chiến chống Pháp, giải phóng hoàn toàn miền Bắc.",
         imageUrl: "https://bcp.cdnchinhphu.vn/334894974524682240/2024/4/25/1gionevoa-17140129931551422933117.jpg"
 
+  },
+  {
+    id: 20,
+    title: "Trận chiến đấu tại Bắc Bộ Phủ",
+    location: "Hà Nội",
+    coordinates: [21.0253, 105.8569],
+    date: "20/12/1946",
+    phase: "resistance-1945-1954",
+    description: "Trận đánh ác liệt giữa quân ta và quân Pháp ngay sau khi Toàn quốc kháng chiến bùng nổ, tiêu biểu cho tinh thần 'Quyết tử cho Tổ quốc quyết sinh'.",
+    imageUrl: "" 
+  },
+  {
+    id: 21,
+    title: "Đại hội đại biểu toàn quốc lần thứ II của Đảng",
+    location: "Chiêm Hóa, Tuyên Quang",
+    coordinates: [22.1444, 105.2633],
+    date: "02/1951",
+    phase: "resistance-1945-1954",
+    description: "Đảng ra hoạt động công khai với tên gọi Đảng Lao động Việt Nam, thông qua Chính cương xác định đường lối kháng chiến đến thắng lợi hoàn toàn.",
+    imageUrl: ""
+  },
+  {
+    id: 22,
+    title: "Chiến thắng Hòa Bình",
+    location: "Hòa Bình",
+    coordinates: [20.8172, 105.3375],
+    date: "12/1951–02/1952",
+    phase: "resistance-1945-1954",
+    description: "Ta đánh bại kế hoạch chiếm đóng Hòa Bình của Pháp, bảo vệ vững chắc đường liên lạc giữa căn cứ Việt Bắc với khu IV và Nam Bộ.",
+    imageUrl: ""
+  },
+  {
+    id: 23,
+    title: "Chiến dịch Tây Bắc",
+    location: "Sơn La, Lai Châu, Yên Bái",
+    coordinates: [21.3259, 103.9119],
+    date: "10/1952–12/1952",
+    phase: "resistance-1945-1954",
+    description: "Giải phóng một vùng rộng lớn ở Tây Bắc, phá âm mưu lập 'Xứ Thái tự trị' của thực dân Pháp.",
+    imageUrl: ""
+  },
+  {
+    id: 24,
+    title: "Phong trào phá 'Tháp canh' tại Nam Bộ",
+    location: "Bình Dương",
+    coordinates: [11.0347, 106.745],
+    date: "1948–1950",
+    phase: "resistance-1945-1954",
+    description: "Phát triển cách đánh đặc công (trận cầu Bà Kiên), phá vỡ chiến thuật 'mạng nhện' bằng hệ thống tháp canh dày đặc của Pháp ở Nam Bộ.",
+    imageUrl: ""
+  },
+  {
+    id: 25,
+    title: "Chiến thắng La Ngà",
+    location: "Đồng Nai",
+    coordinates: [11.1969, 107.2344],
+    date: "01/03/1948",
+    phase: "resistance-1945-1954",
+    description: "Trận phục kích lớn nhất của quân dân Nam Bộ thời kỳ đầu kháng chiến, tiêu diệt nhiều sinh lực và phương tiện chiến tranh của địch.",
+    imageUrl: ""
+  },
+  {
+    id: 26,
+    title: "Chiến thắng trên mặt trận cực Nam Trung Bộ",
+    location: "Nha Trang, Khánh Hòa",
+    coordinates: [12.2451, 109.1943],
+    date: "23/10/1945",
+    phase: "resistance-1945-1954",
+    description: "Mở đầu cuộc chiến đấu kiên cường của quân dân mặt trận Nam Trung Bộ và Tây Nguyên ngay sau khi Pháp quay lại xâm lược.",
+    imageUrl: ""
   }
 ];
 
