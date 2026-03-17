@@ -108,6 +108,47 @@ const SidePanel = ({ event, isOpen, onClose }: { event: HistoricalEvent | null; 
             </div>
           </div>
 
+          {/* Event Image */}
+          <div className="mt-6 w-full" style={{ aspectRatio: '16 / 9', position: 'relative' }}>
+            {event.imageUrl ? (
+              <img
+                src={event.imageUrl}
+                alt={event.title}
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  borderRadius: '6px',
+                  display: 'block',
+                }}
+              />
+            ) : (
+              <div
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  borderRadius: '6px',
+                  background: 'linear-gradient(135deg, hsl(0 60% 12%) 0%, hsl(0 40% 8%) 100%)',
+                  border: '1px dashed hsl(0 60% 30%)',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '8px',
+                }}
+              >
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="hsl(0 60% 40%)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <circle cx="8.5" cy="8.5" r="1.5" />
+                  <polyline points="21 15 16 10 5 21" />
+                </svg>
+                <span style={{ fontSize: '10px', color: 'hsl(0 40% 45%)', textTransform: 'uppercase', letterSpacing: '0.15em', textAlign: 'center' }}>
+                  Hình ảnh sẽ được thêm sau
+                </span>
+              </div>
+            )}
+          </div>
+
           <div className="mt-8 h-px w-12 bg-primary" />
 
           <p className="mt-8 text-foreground/80 leading-relaxed text-lg font-serif italic">
